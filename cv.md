@@ -10,7 +10,7 @@ I really want to work and develop in the field of web development.
 **Skills:**
 
   * HTML/CSS
-  * JavaSccript(ES6)
+  * JavaScript(ES6)
   * Webpack
   * Git
   * Bootstrap
