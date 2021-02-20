@@ -5,21 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/loading-bar.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
 </head>
 
 <body>
   <header class="header">
-    <div class="container d-flex justify-content-center flex-wrap align-middle">
+    <div class="container">
       <div class="main">
-        <img src="/assets/img/photo.png" alt="photo" class="main-photo">
+        <img src="/assets/img/photo.jpg" alt="photo" class="main-photo">
         <div class="main-text">
-          <h3 class="speciality">Front-end developer</h3>
-          <h2 class="name">Yaroslav Klimuk</h2>
+          <h2 class="speciality">Front-end developer</h2>
+          <h1 class="name">Yaroslav Klimuk</h1>
           <p class="goal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem hic eligendi impedit eveniet
             minima illum sequi fuga deleniti blanditiis harum.</p>
           <!-- <ul class="header-social">
@@ -91,7 +92,7 @@
     <div class="container">
       <h3 class="section-title">Skills</h3>
       <div class="skills-level">
-        <div class="skills-bars col-6">
+        <div class="skills-bars">
           <div class="ldBar label-center htmlBar" data-value="0" data-transition-in="true" data-preset="circle"
             style="width: 140px; height: 140px;" data-duration="3">
             <span>HTML</span>
@@ -104,9 +105,8 @@
             style="width: 140px; height: 140px;" data-duration="3">
             <span>JavaScript</span>
           </div>
-
         </div>
-        <div class="skills-lists col-6">
+        <div class="skills-lists">
           <ul class="skills-list ">
             <li class="skills-list__item anim-items">Git</li>
             <li class="skills-list__item anim-items">Webpack</li>
@@ -122,7 +122,69 @@
         </div>
       </div>
     </div>
-
+  </section>
+  <section class="experience">
+    <div class="container">
+      <h3 class="section-title">Experience</h3>
+      <div class="timeline">
+        <div class="timeline-row">
+          <div class="timeline-date">
+            <h5 class="timeline-date__text">September 2015 - <br> January 2018</h5>
+          </div>
+          <div class="timeline-item">
+            <h3 class="timeline-item__position">Technician programmer (Student)</h3>
+            <h4 class="timeline-item__company">Pinsk State Vocational and Technical College of Light Industry</h4>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-date">
+            <h5 class="timeline-date__text">April 2018 - <br> June 2018</h5>
+          </div>
+          <div class="timeline-item">
+            <h3 class="timeline-item__position">Student</h3>
+            <h4 class="timeline-item__company">Glo Academy (Web developer, courses)</h4>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-date">
+            <h5 class="timeline-date__text">January 2018 - <br> November 2018</h5>
+          </div>
+          <div class="timeline-item">
+            <h3 class="timeline-item__position">Engineer programmer</h3>
+            <h4 class="timeline-item__company">Pinsk executive committee</h4>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-date">
+            <h5 class="timeline-date__text">November 2018 - <br> May 2020</h5>
+          </div>
+          <div class="timeline-item">
+            <h3 class="timeline-item__position">Military service</h3>
+            <h4 class="timeline-item__company">Armed Forces Republic of Belarus</h4>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-date">
+            <h5 class="timeline-date__text">September 2020 - <br> Present</h5>
+          </div>
+          <div class="timeline-item ">
+            <h3 class="timeline-item__position">Student</h3>
+            <h4 class="timeline-item__company">Belarusian State University of Informatics and Radioelectronics <br>
+              (engineering and psychological support of information
+              technologies)</h4>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <div class="timeline-date last">
+            <h5 class="timeline-date__text">September 2020 - <br> December 2020</h5>
+          </div>
+          <div class="timeline-item ">
+            <h3 class="timeline-item__position">Student</h3>
+            <h4 class="timeline-item__company">Rolling Scopes School (Front-end, courses)</h4>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <script src="assets/js/loading-bar.js"></script>
   <script src="assets/js/main.js"></script>
