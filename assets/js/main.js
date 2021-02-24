@@ -4,6 +4,7 @@ const cssBar = document.querySelector('.cssBar');
 const jsBar = document.querySelector('.jsBar');
 const animItems = document.querySelectorAll('.anim-items');
 const timeLineItems = document.querySelectorAll('.timeline-item');
+const timeLineDate = document.querySelectorAll('.timeline-date');
 window.onload = () => {
 	const io = new IntersectionObserver((e) => {
 		if (e[0].isIntersecting) {
@@ -31,6 +32,7 @@ function animOnScroll() {
 		const timeLineItemHeight = timeLineItem.offsetHeight;
 		const timeLineItemOffset = offset(timeLineItem).top;
 		const animStart = 1;
+		const dateItem = timeLineDate[i];
 
 		// eslint-disable-next-line prefer-const
 		let timeLineItemPoint = window.innerHeight - timeLineItemHeight / animStart;
@@ -42,6 +44,7 @@ function animOnScroll() {
     && pageYOffset < (timeLineItemOffset + timeLineItemHeight)) {
 			timeLineItem.classList.add('_active');
 			timeLineItem.classList.add('anim');
+			dateItem.classList.add('point_active');
 		}
 	}
 }

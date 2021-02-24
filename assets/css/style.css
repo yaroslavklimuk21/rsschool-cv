@@ -79,7 +79,7 @@ section {
   padding: 10px 30px;
   font-size: 16px;
   background-color: #252424;
-  border: 2px solid #E6C81E;
+  border: 2px solid #fec110;
   border-radius: 30px;
   text-decoration: none;
   color: #fff;
@@ -88,7 +88,7 @@ section {
 }
 
 .main-btn:hover {
-  background-color: #E6C81E;
+  background-color: #fec110;
   text-decoration: none;
   color: #232323;
   transform: scale(2);
@@ -147,7 +147,7 @@ section {
   width: 40%;
   max-width: 30px;
   height: 2px;
-  background-color: #E6C81E;
+  background-color: #fec110;
 }
 
 .section-text {
@@ -199,29 +199,29 @@ section {
   content: "⬤";
   font-size: .7rem;
   margin-right: 10px;
-  vertical-align: text-top;
-  color: #E6C81E;
-  text-shadow: 0px 0px 9px #E6C81E;
+  vertical-align: middle;
+  color: #fec110;
+  text-shadow: 0px 0px 9px #fec110;
 }
 
 .skills-list__item:nth-child(1) {
-  transition: all .4s ease;
-}
-
-.skills-list__item:nth-child(2) {
   transition: all .6s ease;
 }
 
-.skills-list__item:nth-child(3) {
+.skills-list__item:nth-child(2) {
   transition: all .8s ease;
 }
 
-.skills-list__item:nth-child(4) {
+.skills-list__item:nth-child(3) {
   transition: all 1s ease;
 }
 
+.skills-list__item:nth-child(4) {
+  transition: all 1.2s ease;
+}
+
 .ldBar path.mainline {
-  stroke: #E6C81E;
+  stroke: #fec110;
   stroke-linecap: round;
 }
 
@@ -262,16 +262,15 @@ section {
 
 .timeline-item__position {
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
 .timeline-item__company {
   padding-bottom: 15px;
   font-size: 14px;
-  font-weight: 600;
   line-height: 1.3;
-  color: #E6C81E;
+  color: #fec110;
 }
 
 .timeline-date {
@@ -283,7 +282,7 @@ section {
   content: '';
   position: absolute;
   top: 5px;
-  right: -25%;
+  right: calc(-25% + 9px);
   width: 2px;
   height: calc(100% + 50px);
   background-color: #696868;
@@ -294,16 +293,26 @@ section {
   content: "⬤";
   position: absolute;
   top: 0;
-  right: calc(-25% - 9px);
+  right: -25%;
   font-size: 1.4rem;
-  vertical-align: text-top;
-  color: #E6C81E;
-  text-shadow: 0px 0px 9px #E6C81E;
+  color: #4a4949;
   z-index: 2;
+  transition: all .5s ease;
 }
 
 .timeline-date__text {
   line-height: 1.7;
+}
+
+.point_active::after {
+  content: "⬤";
+  position: absolute;
+  top: 0;
+  right: -25%;
+  font-size: 1.4rem;
+  color: #fec110;
+  text-shadow: 0px 0px 9px #fec110;
+  z-index: 2;
 }
 
 .last::before {
