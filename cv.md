@@ -27,5 +27,6 @@ I really want to work and develop in the field of web development.
   * Belarusian State University of Informatics and Radioelectronics. 
     Speciality: Engineering and psychological support of information technologies.(Сorrespondence course)
   * Course "Web-developer 13.0" from "Academy of markup" ([Sertificate](https://yadi.sk/i/76Rdknrg3WyP2G))
+  * Rolling Scopes School - Front-end Developer
   
 **English level:** Intermediate
